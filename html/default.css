@@ -1,0 +1,13 @@
+@charset "utf-8";
+.container{
+	max-width: 960px;
+	/*보통 1024에 모니터에 잘 보이는 크기*
+	width라고만 하면 넓이를 픽스 시킴 넓이가 가변적으로 되지 않는다! 
+	반응형일 때는 max-width를 사용한다!*/
+	background: silver;
+	margin: 0 auto 0 auto;
+	/* 0 auto 0 auto라는 값을 반복하지 않기 위해 축약형으로 쓸수있다. 
+	0 auto;*/
+}
+
+/*.header>h1{}*/
